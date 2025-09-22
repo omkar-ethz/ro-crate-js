@@ -1,3 +1,7 @@
+/**
+ * Update the local cache of the RO-Crate default context from the default context URL.
+ */
+
 import { writeFile } from 'node:fs/promises';
 import { Readable } from 'node:stream';
 import defaults from './lib/defaults.js';

@@ -1,10 +1,9 @@
 {
   "name": "ro-crate",
-  "version": "3.6.0",
+  "version": "3.6.1",
   "description": "Research Object Crate (RO-Crate) utilities for making and consuming crates",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node update-context.mjs",
     "test": "mocha",
     "build-docs": "typedoc",
     "test-node16": "docker run -v `pwd`:`pwd` -w `pwd` node:16-alpine npm test",
